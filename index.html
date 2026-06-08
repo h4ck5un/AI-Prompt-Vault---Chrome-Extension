@@ -1,75 +1,251 @@
-# Privacy Policy for AI Prompt Vault
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Privacy Policy – AI Prompt Vault</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-**Last Updated:** June 8, 2026
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e9edf2 100%);
+            padding: 2rem 1rem;
+            color: #1a202c;
+            line-height: 1.6;
+        }
 
-**Developer:** Negru Gabriel
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 28px;
+            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
 
----
+        .header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: white;
+            padding: 2.5rem 2rem;
+            text-align: center;
+        }
 
-## Introduction
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.3px;
+        }
 
-This Privacy Policy describes how AI Prompt Vault ("we", "our", or "the Chrome Extension") collects, uses, and protects your information. We are committed to protecting your privacy and being transparent about our data practices.
+        .header .sub {
+            opacity: 0.85;
+            font-size: 0.95rem;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            display: inline-block;
+            padding-top: 0.75rem;
+            margin-top: 0.5rem;
+        }
 
-## Information We Collect
+        .content {
+            padding: 2rem 2rem 2.5rem;
+        }
 
-**We DO NOT collect any personal information or data.**
+        .badge {
+            background: #e2e8f0;
+            color: #0f172a;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
 
-AI Prompt Vault is designed with privacy in mind. All data, if any, is stored locally on your device and is never transmitted to external servers.
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 1.8rem;
+            margin-bottom: 0.75rem;
+            color: #0f172a;
+            border-left: 4px solid #3b82f6;
+            padding-left: 1rem;
+        }
 
-## How We Use Your Information
+        h2:first-of-type {
+            margin-top: 0;
+        }
 
-Since we don't collect any data, there is no usage of your information. All Chrome Extension functionality operates locally on your device.
+        h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #1e293b;
+        }
 
-## Third-Party Services
+        p, li {
+            color: #334155;
+            margin-bottom: 0.8rem;
+        }
 
-AI Prompt Vault uses the following third-party services:
+        ul, ol {
+            margin: 0.8rem 0 1rem 1.8rem;
+        }
 
-https://gumroad.com
+        li {
+            margin-bottom: 0.4rem;
+        }
 
-These services have their own privacy policies. We recommend reviewing their policies to understand how they handle your data.
+        .highlight-box {
+            background: #f8fafc;
+            border-left: 4px solid #10b981;
+            padding: 1rem 1.25rem;
+            border-radius: 16px;
+            margin: 1.2rem 0;
+            font-size: 0.95rem;
+        }
 
-## Data Storage and Security
+        .highlight-box strong {
+            color: #065f46;
+        }
 
-All data is stored locally on your device. We do not have access to your data, and it is never transmitted to our servers or any third parties.
+        hr {
+            margin: 2rem 0;
+            border: none;
+            height: 1px;
+            background: #e2e8f0;
+        }
 
-## Your Rights
+        .footer-note {
+            background: #f1f5f9;
+            padding: 1.2rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            text-align: center;
+            color: #475569;
+            margin-top: 2rem;
+        }
 
-You have the following rights regarding your data:
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            border-bottom: 1px dotted #93c5fd;
+        }
 
-- **Access:** View what data we have (if any)
-- **Deletion:** Delete your data by uninstalling the Chrome Extension
-- **Portability:** Export your data where applicable
-- **Opt-Out:** Disable features you're uncomfortable with
+        a:hover {
+            color: #1d4ed8;
+            border-bottom: 1px solid #1d4ed8;
+        }
 
-## Compliance
+        .contact-email {
+            background: #eef2ff;
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
 
-### GDPR Compliance (EU Users)
-We comply with the General Data Protection Regulation (GDPR):
-- Minimal data collection
-- Clear consent mechanisms
-- Right to access, delete, and port data
-- No automated decision-making
+        @media (max-width: 640px) {
+            body {
+                padding: 1rem 0.75rem;
+            }
+            .content {
+                padding: 1.5rem;
+            }
+            .header {
+                padding: 1.8rem 1rem;
+            }
+            .header h1 {
+                font-size: 1.6rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔐 Privacy Policy</h1>
+            <div style="font-size: 1.2rem; font-weight: 500;">AI Prompt Vault</div>
+            <div class="sub">Last Updated: June 8, 2026</div>
+        </div>
 
-### CCPA Compliance (California Users)
-We comply with the California Consumer Privacy Act (CCPA):
-- We do not sell personal information
-- You can request data deletion
-- You can opt-out of data collection
+        <div class="content">
+            <div class="badge">📌 Developer: Negru Gabriel</div>
 
-## Changes to This Policy
+            <h2>📖 Introduction</h2>
+            <p>This Privacy Policy describes how AI Prompt Vault ("we", "our", or "the Chrome Extension") collects, uses, and protects your information. We are committed to protecting your privacy and being transparent about our data practices.</p>
 
-We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. Continued use of AI Prompt Vault after changes constitutes acceptance of the updated policy.
+            <h2>🔍 Information We Collect</h2>
+            <div class="highlight-box">
+                <strong>✓ We DO NOT collect any personal information or data.</strong><br><br>
+                AI Prompt Vault is designed with privacy in mind. All data, if any, is stored locally on your device and is never transmitted to external servers.
+            </div>
 
-## Contact Us
+            <h2>⚙️ How We Use Your Information</h2>
+            <p>Since we don't collect any data, there is no usage of your information. All Chrome Extension functionality operates locally on your device.</p>
 
-If you have questions, concerns, or requests regarding this Privacy Policy:
+            <h2>🌐 Third-Party Services</h2>
+            <p>AI Prompt Vault uses the following third-party service:</p>
+            <ul>
+                <li><a href="https://gumroad.com" target="_blank" rel="noopener noreferrer">https://gumroad.com</a> (for licensing or payments, if applicable)</li>
+            </ul>
+            <p>These services have their own privacy policies. We recommend reviewing their policies to understand how they handle your data.</p>
 
-**Email:** negruuugabriel@gmail.com
+            <h2>💾 Data Storage and Security</h2>
+            <p>All data is stored locally on your device using Chrome's built-in storage APIs. We do not have access to your data, and it is never transmitted to our servers or any third parties unless you explicitly use an external service integration.</p>
 
-We aim to respond to all inquiries within 48 hours.
+            <h2>👤 Your Rights</h2>
+            <p>You have the following rights regarding your data:</p>
+            <ul>
+                <li><strong>Access:</strong> View what data we have (if any) by inspecting the extension's local storage.</li>
+                <li><strong>Deletion:</strong> Delete your data by uninstalling the Chrome Extension or clearing browser data.</li>
+                <li><strong>Portability:</strong> Export your data where applicable using built-in extension features.</li>
+                <li><strong>Opt-Out:</strong> Disable features you're uncomfortable with by revoking permissions.</li>
+            </ul>
 
----
+            <h2>✅ Compliance</h2>
+            <h3>GDPR Compliance (EU Users)</h3>
+            <p>We comply with the General Data Protection Regulation (GDPR):</p>
+            <ul>
+                <li>Minimal data collection (effectively zero personal data)</li>
+                <li>Clear consent mechanisms when needed</li>
+                <li>Right to access, delete, and port data</li>
+                <li>No automated decision-making or profiling</li>
+            </ul>
 
-**Effective Date:** June 8, 2026
+            <h3>CCPA Compliance (California Users)</h3>
+            <p>We comply with the California Consumer Privacy Act (CCPA):</p>
+            <ul>
+                <li>We do not sell personal information</li>
+                <li>You can request data deletion (by uninstalling)</li>
+                <li>You can opt-out of any future data collection</li>
+            </ul>
 
-By using AI Prompt Vault, you acknowledge that you have read and understood this Privacy Policy.
+            <h2>📅 Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. Continued use of AI Prompt Vault after changes constitutes acceptance of the updated policy.</p>
+
+            <h2>📧 Contact Us</h2>
+            <p>If you have questions, concerns, or requests regarding this Privacy Policy:</p>
+            <p><strong>Email:</strong> <a href="mailto:negruuugabriel@gmail.com" class="contact-email" style="border-bottom: none; background: #eef2ff; padding: 0.3rem 0.8rem; border-radius: 20px;">negruuugabriel@gmail.com</a></p>
+            <p>We aim to respond to all inquiries within 48 hours.</p>
+
+            <hr>
+
+            <p style="text-align: center; font-size: 0.9rem;"><strong>Effective Date:</strong> June 8, 2026</p>
+            <div class="footer-note">
+                By using AI Prompt Vault, you acknowledge that you have read and understood this Privacy Policy.<br>
+                🔒 <strong>Zero data collection • Local-first storage • Your privacy matters</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
